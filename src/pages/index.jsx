@@ -1,15 +1,20 @@
-// import Header from "@/components/header";
-// import Hero from "@/components/hero";
-// import Footer from "@/components/footer";
-// import Main from "@/home/main";
+// import Header from "@/components/header"
+// import Hero from "@/components/hero"
+import Main from "@/components/main"
+import Trending from "@/components/trending"
+import Post from "@/components/post"
+
 export default function Home() {
-  return (
+  return(
     <>
-      {/* <Main /> */}
-      {/* <p>Home page</p> */}
-      {/* <Header /> */}
-      {/* <Hero /> */}
-      {/* <Footer /> */}
+    <Main/>
+    <Trending/>
+    <Post/>
+    
+    {/* <Header/>
+    <Hero/> */}
+
     </>
-  );
+  )
 }
+    
