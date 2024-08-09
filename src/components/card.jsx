@@ -17,13 +17,16 @@
 //     date: "4568",
 //   },
 // ];
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Card = () => {
   const [articles, setArticles] = useState([]);
 
   const getArticleData = async () => {
-    const response = await fetch("https://dev.to/api/articles");
+    const response = await fetch(
+      "https://dev.to/api/articles?page=9&per_page=12"
+    );
     const data = await response.json();
     setArticles(data);
     // console.log("data", data)
@@ -37,22 +40,25 @@ const Card = () => {
   return (
     <div className="grid grid-cols-3 gap-5">
       {articles.map((article) => {
+        // console.log("article", article.id);
         return (
-          <div className="border pl-9">
-            {/* <img
-              className="w-[380px]  rounded mt-3"
-              src={article.social_image}
-            /> */}
-            <p className="bg-gray-300 w-24 h-5 my-3 rounded-sm text-center text-blue-500">
-              {article.title}
-            </p>
-            {/* <h2 className="text-xl font-medium w-96">{articles.label}</h2>
+          <Link href={`/${article.id}`}>
+            <div className="border pl-9">
+              <img
+                className="w-[380px]  rounded mt-3"
+                src={article.social_image}
+              />
+              <p className="bg-gray-300 w-24 h-5 my-3 rounded-sm text-center text-blue-500">
+                {articles.title}
+              </p>
+              {/* <h2 className="text-xl font-medium w-96">{articles.label}</h2>
             <div className="flex gap-4 items-center pb-3">
               <img className="w-9 rounded-full mt-5" src={articles.img2} />
               <p className="text-gray-300">{articles.ner}</p>
               <p className="text-gray-300">{articles.date}</p>
             </div> */}
-          </div>
+            </div>
+          </Link>
         );
       })}
     </div>
