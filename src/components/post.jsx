@@ -1,3 +1,6 @@
+import { SearchContext } from "@/provider/search-provider";
+import { useContext } from "react";
+
 const Post = () => {
   return (
     <div className="mx-[22rem]">

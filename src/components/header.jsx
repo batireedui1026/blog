@@ -1,11 +1,13 @@
+import { SearchContext } from "@/provider/search-provider";
 import Link from "next/link";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
+  const { setSearchValue } = useContext(SearchContext);
   const [value, setValue] = useState();
-  let handleChange = (e) => {
-    setValue(e.target.value);
+  const handleChange = (e) => {
+    setSearchValue(e.target.value);
   };
 
   return (
@@ -26,7 +28,6 @@ const Header = () => {
         <input onChange={handleChange} placeholder="Search" type="text" />
         <CiSearch />
       </div>
-      <p>{value}</p>
     </div>
   );
 };
