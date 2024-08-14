@@ -38,7 +38,7 @@ const Trending = () => {
         <div>
           <img
             className=" h-[350px] rounded-2xl object-cover"
-            src="https://s3-alpha-sig.figma.com/img/a7b0/86f2/c97b173ebc05fa8f9660788e8e0971b9?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Njs2WSAzJvjO4l~ReEcgG2yyIX0xnySl5E0ktv6ifS9xscjtDSHD0B~a-BRX5X4v5rXYonNYU46EvBNMMzOl0v1V2hclCr9ziqpR4~x53BKLgf7UU4u1MGBTAiyKeAUdabAad4CGvMtg3in~F22YZlpp~cB9blH149gB~d4LgTY7aspjxVGXOGQhWsrltfC~px154a2REOPEMYIKL3mTHHzWYxHxeqFq-Ld4mKU7XpWHfyOmR0-NppyJ1UrDwpCDOq1NrMGdSyTsFv1DldKhzVP3VLXe6x39EVtGH4FAJ2UewRL3zp7Do4otFexSwLpRKJd-cHC8fe7VX2a9vraj4g__"
+            src="https://s3-alpha-sig.figma.com/img/a7b0/86f2/c97b173ebc05fa8f9660788e8e0971b9?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=G1Fer2f08jWxXUKMSdxzSE-JyoV326wPcfzBb3estrkcuT7n3aLCHp5nSPaus9iLbVHam5nOguIVb-ARtcCaHDg-8vqCS23Lj5a~yIyRx5IfrFoofQ3LnGDXWq~m6D7Zz2TQ6~YJ5RekiJ7JeMF2tR780ijDV~QbVp4Rxjx6TGXi4~urxWZy~6z3HO3S8viHJdED3t3iIcUBxVfN7IxNmS3ZnfF0Hir-Ep5T5LTV6EfkkIm~HEJE0yFByXYMGlTTTyiyyk6KDlBKJtlGQcgGmnWHCsRApgDskmLaKcZCSa5d2KsAfrXpT2jgmoySUAr4o8f5-oAa9sbmcnlUcxvjFw__"
           />
           <div className="relative bottom-32 left-5">
             <p className="bg-blue-500 w-24 rounded-sm text-stone-100">
