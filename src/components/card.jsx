@@ -27,6 +27,7 @@ const Card = () => {
   const findPost = articles.filter((article) =>
     article.title.toLowerCase().includes(searchValue.toLowerCase())
   );
+  
 
   console.log("articles", articles);
   console.log(searchValue);
