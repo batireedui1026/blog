@@ -6,7 +6,7 @@ const Trending = () => {
         <div>
           <img
             className=" h-[350px] rounded-2xl object-cover"
-            src="https://s3-alpha-sig.figma.com/img/e8eb/3bce/c766a697a30822ccba768b03c5125ead?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UaeMflZthJbLWO4fYsZntkBYw9rNFb8XF0N4QTPygrA3NbQfKmVjyBT43L3NtwomjDqKhDlbJsWPGVzqtTk5s6DxBUnmxS2tPR0TDzyvSgvZ1fkL50fgU6mMH7T5EwrGRw6Dy0QfsT9WBJP4yOTbIJbhTsFYa0BICBUSoyNpC4Pip5ixKd3VSAFGx2lpcXFE7cSIb-jnp0Ll47nkLb-6uL42hJqR6VlnMbXyA-GNs~QJtijBPezcUQgBTP0JHXdvbLy~A-ivgcbi~pyD7fur5BETw0~rwRnhIvSMo1NH0kk1FUuZoq8O-HywzprAItNw-840kN~WPHoGZep-5Kv-Mg__"
+            src="https://s3-alpha-sig.figma.com/img/e8eb/3bce/c766a697a30822ccba768b03c5125ead?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jGTxQ-HaWqGPaztoGgiWYoq~sL5mf69vny965mJXuPI6yep~vruuWOxCBorqP1zqCfNsZgj86bRb--hLGdnromnWNMXxV1iYth4QelrfD3qxIgM8uBv0SJ2dNooiGy7yc1OCLNeIwMFdbT98UmMOUhCjH11v4tOa2r7RvaNYkrz4IImpfEcVyj1m1WuhpV-jpRG8llGNS1Kcxk70n~lki1leACiy3PLIVJ5lEQLwP58grkQT2lcHV6j-3pmpGEyY~HwbxQUTKbzFL7dflEOx0HtCNwPNlOcUeEq0VZK2qS-GU9cj~7AZwiyHnSiZwVp4mttz68NoycujwkDm8u13ng__"
           />
           <div className="relative bottom-32 left-5">
             <p className="bg-blue-500 w-24 rounded-sm text-stone-100">
@@ -22,7 +22,7 @@ const Trending = () => {
         <div>
           <img
             className=" h-[350px] rounded-2xl object-cover"
-            src="https://s3-alpha-sig.figma.com/img/8d5b/3c3e/9c1f18bc8db1dc4de14eac308e1e1594?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Up1UjbIb8UkXAq13uy78wMlhPVFbXOBtxkEIfKTniv-9cK9wD1BCKy~u17SvM58CE7s2cyadOzcpJNluFWGYEgL1VhWvSMDEz9zhq1ARs3jNRG6wqT4oUSgeKRUKdcdnNM76EDRc2y3dVarljF6QkndkIyPDXiqo3aJAyP~qkDcQdCwffrMWwkGpnE0T0EFmapOwv0KOyWG97FRZhzeHFp5uoJXKzcTe6-u89TnVacBd84IsyOM6fb~8M8ZKHsnB48WKAlCQe5wKGkjnn-6xo4VrB-waO~rDoDGYcS5TXhVIjGLzKNjeEOQ8tIOFRe8yYwB9HgCyDMrIVsAB~rjztw__"
+            src="https://s3-alpha-sig.figma.com/img/8d5b/3c3e/9c1f18bc8db1dc4de14eac308e1e1594?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ohHbK0y4AWyReESuqgvGIIXJz5qZPuuO27YZ9A1eFkxNGDpiry0eB7vZ8wTs3bTu3zYyMw2XbHvTZSz9hWsDCg2Gr~lIGSgKFCWyMEsFLgMNi8jmQjEQUVx3B4TF582fjPbnIIZdGHGzv7FFvU-wBoUIxW~xewlVrx4xbYBdvJvW78C2ewkMwYITrTmGXvTFpuhJQt3RGO6aUeo30oxjcSNfLd58Dnb~ig-7G4F1XJTqqz2PU9xHfarja2vmqP4eX9dPReqBIv0NeCM~8lK58j3UsVmDEN-FWat3RpheHWe33cZHzcrB0tMZmcaGUt8CEy0Z1BRpW2oN8hJ3ji7Q4Q__"
           />
           <div className="relative bottom-32 left-5">
             <p className="bg-blue-500 w-24 rounded-sm text-stone-100">
@@ -54,7 +54,7 @@ const Trending = () => {
         <div>
           <img
             className=" h-[350px] rounded-2xl object-cover"
-            src="https://s3-alpha-sig.figma.com/img/21a4/f878/0943144e7126909a96868bd7542caf21?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Nu8hSaH2GoGH4o4HLrTwAuuZzx0UGaW8V2p1OmrFZ49mMTUHJvL~P0RQ~XFKxfKhBn9DFf3a1eX6sIHpxjBQy3N2oMxkNQDUK6tFgtO3irT3ITBd5abXnf1yBSCQ6xD8qdIgfDOoGYIjCoZ1~yl81dGmI6O0S4KAUK2QXKC1rdqSt8xx8MT~75LRHrI-LLo6Q3Hx59wU~lqabCADiQqYRdZwRFwoZVdep4mhTdy8yT6b72Mm~j1oUbLBpEPC-2nDVfzrYF-pTkh21ORtlh0o78yjCqLZlGfsoCyZd7or75R3c0NW-SWU~TVJH3tBZ2dqOL8yEuw7sNvmS48h-oCAQQ__"
+            src="https://s3-alpha-sig.figma.com/img/21a4/f878/0943144e7126909a96868bd7542caf21?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cNtKRZKm7qtKvIdC8TWx2lQ9PwuE0yKwty4K9TtIcBse6yxVWii0WbH8D62ayTkVSnQa5wRxAjgyMaS1e8WytTK1FJUOtgYZgfn9A642agjho090XX7HUNXWoLyrkIat9WMp9JZ~gNa6lrovsd1GpssyOkdBvrTHr1TSEliSOVUryzUNvmIn4U4xbwunV~ZD~qtE7cSOXKMH7iYyrMj2XwxmTenv1v1G9XfGmCekXyIUQDKIZhS2Xxy53AMpsLaxx-gqX5x~lO1MUJJqQQgBw0h99-n-BBAKSHR5VDSNFkgV~79OrAQ6sY78VT-W0Odx27nHfumoSpbDYKk7MpfALw__"
           />
           <div className="relative bottom-32 left-5">
             <p className="bg-blue-500 w-24 rounded-sm text-stone-100">
