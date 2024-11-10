@@ -18,12 +18,7 @@ const Card = () => {
   useEffect(() => {
     getArticleData();
   }, []);
-  // const findArticle = (article) => {
-  //   articles.filter.article.toLowerCase().includes.toLowerCase(searchValue);
-  // };
-  // const filteredArticles = articles.filter((article) =>
-  //   article.title.toLowerCase().includes(searchValue.toLowerCase())
-  // );
+ 
   const findPost = articles.filter((article) =>
     article.title.toLowerCase().includes(searchValue.toLowerCase())
   );
@@ -32,33 +27,33 @@ const Card = () => {
   console.log("articles", articles);
   console.log(searchValue);
   return (
-    <div className="grid grid-cols-3 gap-5">
-      <p className="min-w-96 h-10 bg-gray-100 rounded text-blue-300">
-        Хайлт утга:{searchValue}
-      </p>
-      {findPost.map((article) => {
-        // console.log("article", article.id);
-        return (
-          <Link href={`/${article.id}`}>
-            <div className="border pl-9">
-              <img
-                className="w-[380px]  rounded mt-3"
-                src={article.social_image}
-              />
-              <p className="bg-gray-300 w-24 h-5 my-3 rounded-sm text-center text-blue-500">
-                {article.title}
-              </p>
-              {/* <h2 className="text-xl font-medium w-96">{articles.label}</h2>
-            <div className="flex gap-4 items-center pb-3">
-              <img className="w-9 rounded-full mt-5" src={articles.img2} />
-              <p className="text-gray-300">{articles.ner}</p>
-              <p className="text-gray-300">{articles.date}</p>
-            </div> */}
-            </div>
-          </Link>
-        );
-      })}
+    <div className="max-w-[1500px] mx-auto">
+       <div className="pl-3">
+        <p className="min-w-96 h-10 bg-gray-100 rounded text-blue-300">
+          Хайлт утга:{searchValue}
+        </p>
+       </div>
+       <div className="grid grid-cols-3 gap-5 my-5">
+        {findPost.map((article) => {
+          // console.log("article", article.id);
+          return (
+            <Link href={`/${article.id}`}>
+              <div className="border pl-9">
+                <img
+                  className="w-[380px]  rounded mt-3"
+                  src={article.social_image}
+                />
+                <p className="bg-gray-300 w-64 h-12 my-3 rounded-sm text-center text-blue-500">
+                  {article.title}
+                </p>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
     </div>
+    
+   
   );
 };
 export default Card;

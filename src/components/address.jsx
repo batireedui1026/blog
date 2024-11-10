@@ -1,15 +1,8 @@
 const Address = () => {
   return (
-    <div className="mx-[46rem] my-[150px]">
-      <h1 className="text-3xl font-bold">Contact Us</h1>
+    <div className="max-w-[1500px] mx-auto my-16">
+      <h1 className="text-3xl font-bold text-center">Contact Us</h1>
       <br />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam
-      </p>
       <div className="flex gap-24 justify-center my-8">
         <div className="border w-72 text-center">
           <h2 className="text-xl font-semibold">Address</h2>
@@ -26,7 +19,7 @@ const Address = () => {
           </p>
         </div>
       </div>
-      <div className="w-[750px] bg-gray-200">
+      <div className="w-[750px] bg-gray-200 mx-auto">
         <h1 className="font-semibold ml-[67px] my-5 pt-5">Leave a message</h1>
         <div className="gap-8 flex justify-center ">
           <input placeholder="Your name" className="border w-72" type="text" />

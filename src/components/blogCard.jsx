@@ -29,7 +29,7 @@ const BlogCard = () => {
                 className="w-[380px]  rounded mt-3"
                 src={article.social_image}
               />
-              <p className="bg-gray-300 w-24 h-5 my-3 rounded-sm text-center text-blue-500">
+              <p className=" w-24 h-5 my-3 rounded-sm text-center text-blue-500">
                 {articles.title}
               </p>
               {/* <h2 className="text-xl font-medium w-96">{articles.label}</h2>

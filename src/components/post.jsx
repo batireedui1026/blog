@@ -3,9 +3,9 @@ import { useContext } from "react";
 
 const Post = () => {
   return (
-    <div className="mx-[22rem]">
-      <h1 className="font-semibold text-2xl  py-4">All Blog Post</h1>
-      <div className="flex justify-between ">
+    <div className="w-[1500px] mx-auto py-6">
+      <h1 className="font-semibold text-2xl  py-4 pl-28">All Blog Post</h1>
+      <div className="flex justify-between mx-28 ">
         <div className="flex gap-5">
           <p className="text-red-400">All</p>
           <p>Design</p>

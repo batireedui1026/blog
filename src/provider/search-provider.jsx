@@ -3,7 +3,7 @@ export const SearchContext = createContext(null);
 
 const SearchProvider = ({ children }) => {
   const [searchValue, setSearchValue] = useState("");
-  // const [articles, setArticles] = useState([]);
+  const [articles, setArticles] = useState([]);
 
   const getArticleData = async () => {
     const response = await fetch(
@@ -12,14 +12,17 @@ const SearchProvider = ({ children }) => {
     const data = await response.json();
     setArticles(data);
     // console.log("data", data)
-  };
+    const findUser = () => {
+      setArticles.filter((artice) => articles.includes(article.name).toLowerCase());
+    }
+  }; 
 
-  // useEffect(() => {
-  //   getArticleData();
-  // }, []);
+  useEffect(() => {
+    getArticleData();
+  }, []);
 
   return (
-    <SearchContext.Provider value={{ searchValue, setSearchValue }}>
+    <SearchContext.Provider value={{ searchValue, setSearchValue, setArticles }}>
       {children}
     </SearchContext.Provider>
   );
